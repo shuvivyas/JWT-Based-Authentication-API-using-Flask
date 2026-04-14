@@ -94,4 +94,4 @@ Authorization: Bearer <your_token>
 ## Notes
 - API can be tested using Postman
 - Include JWT token in Authorization header for protected routes
-- Database is created locally using create_db.py
+- Database file is not included, will be created locally using create_db.py
