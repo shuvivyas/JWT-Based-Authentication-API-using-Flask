@@ -10,6 +10,9 @@ app = Flask(__name__)
 
 SECRET_KEY = "super_secret_key_213"
 
+@app.route("/")
+def home():
+    return "API is running"
 
 def get_db():
     conn = sqlite3.connect("users.db")
