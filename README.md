@@ -80,7 +80,7 @@ POST /login
 ### Protected Route
 
 ```
-GET /protected
+GET /profile
 ```
 
 Requires JWT token in header:
